@@ -1,5 +1,5 @@
-## Interface: 50200
-## Version: 5.2.1
+## Interface: 60200
+## Version: 6.2.1
 ## Title: eMinimap
 ## Notes: Hides the minimap buttons and changes the position and shape of the map.
 ## Author: Ession
