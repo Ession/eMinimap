@@ -5,7 +5,7 @@
 --    Description:  Hides the minimap buttons and changes
 --                  the position and shape of the map.
 -- 
---        Version:  6.2.1
+--        Version:  7.0.1
 --        Created:  Sun Nov 01 13:21:24 CET 2009
 --       Revision:  none
 -- 
