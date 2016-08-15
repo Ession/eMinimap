@@ -36,6 +36,7 @@ MiniMapVoiceChatFrame:Hide()
 MinimapZoneTextButton:Hide()
 MiniMapTracking:Hide()
 GameTimeFrame:Hide()
+GarrisonLandingPageMinimapButton:UnregisterAllEvents();
 TimeManagerClockButton:Hide()
 
 
