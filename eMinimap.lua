@@ -91,8 +91,11 @@ Minimap:ClearAllPoints()
 Minimap:SetScale(MinimapScale)
 Minimap:SetAlpha(MinimapAlpha)
 Minimap:SetFrameStrata(MinimapStrata)
-Minimap:SetPoint("TOPLEFT", UIParent, "TOPLEFT", MinimapPosX , MinimapPosY)
-
+if ebfMinimap then
+	Minimap:SetPoint("CENTER", ebfMinimap, "CENTER")
+else
+	Minimap:SetPoint("TOPLEFT", UIParent, "TOPLEFT", MinimapPosX , MinimapPosY)
+end
 
 -- -----------------------------------------------------------------------------
 -- Enables mousewheel zoom for the minimap
